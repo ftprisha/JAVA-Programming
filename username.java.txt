@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+class username
+{
+ public static void main(String[] args)
+{
+ Scanner S =new Scanner(System.in);
+ string s1,s2;
+ s1=S.next();
+ s2=S.next();
+ if(s1==s2)
+   System.out.println("valid");
+ else
+    System.out.println("invalid");
+ }
+}
